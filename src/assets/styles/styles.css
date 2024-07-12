@@ -1,0 +1,29 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+
+th:hover {
+  background-color: #ddd;
+}
+
+select {
+  margin-bottom: 20px;
+  padding: 5px;
+}
