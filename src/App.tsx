@@ -10,7 +10,7 @@ const App: FC = () => {
       <h1>Report Viewer</h1>
       <label htmlFor="report-select">Select Report:</label>
       <select id="report-select" onChange={(e) => setSelectedReport(data[parseInt(e.target.value)])}>
-        {data.map((report, index) => (
+        {data.map((_report, index) => (
           <option key={index} value={index}>
             Report {index + 1}
           </option>
